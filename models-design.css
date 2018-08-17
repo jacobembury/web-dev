@@ -11,7 +11,7 @@
 }
 
 h4{    
-    font-family: Times;
+    font-family: arial;
     text-align: center;
     color: white;
     padding-top: 10vh; 
@@ -22,11 +22,22 @@ h4{
 }
 .backdropblack{
     color: white;
-    font-family: Times;
+    font-family: arial;
 }
 .pbackdropblack{
     color: white;
-    font-family: Times;
+    font-family: arial;
+}
+
+.tesladiscription{
+    padding-top: 60vh;
+}
+
+.teslatitle{
+
+}
+.teslaname{
+    padding-top: 15vh;
 }
 
 carimage{
@@ -53,7 +64,7 @@ ul {
 
 h1 {
     font-style: thin;
-    font-family: Times;
+    font-family: arial;
     text-align: center;
     color: white;
     padding-top: 8vh; 
