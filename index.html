@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <link rel="icon" href="icon123.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="index-style.css">
+    <title>Eletric Cars, Cheep Rip off's, & Long-life </title>
+    </head>
+    <body>
+        <div class="w3-content w3-section" style="max-width:100vw">
+          <img class="mySlides" src="homepage.jpg" style="width:100%">
+          <img class="mySlides" src="homepage2.jpg" style="width:100%">
+          <img class="mySlides" src="homepage3.jpg" style="width:100%">
+          <img class="mySlides" src="homepage4.jpg" style="width:100%">
+        </div>
+        <ul>
+          <li><a href="modelx.html">Model X</a></li>
+          <li><a href="models.html">Model S</a></li>
+          <li><a href="#model3">Model 3</a></li>
+          <li><a href="#rodster">Roadster</a></li>
+          <li><a href="shop.html">Shop</a></li>
+        </ul>
+        <script>
+        var myIndex = 0;
+        carousel();
+
+        function carousel() {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            for (i = 0; i < x.length; i++) {
+               x[i].style.display = "none";  
+            }
+            myIndex++;
+            if (myIndex > x.length) {myIndex = 1}    
+            x[myIndex-1].style.display = "block";  
+            setTimeout(carousel, 2000); // Change image every 2 seconds
+        }
+        </script>
+    </body>
+</html>
