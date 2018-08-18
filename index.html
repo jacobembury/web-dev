@@ -18,9 +18,49 @@
             <li><a href="models.html">Model S</a></li>
             <li><a href="#model3">Model 3</a></li>
             <li><a href="#rodster">Roadster</a></li>
-            <li><a href="shop.html">Shop</a></li>
+            <li><a href="javascript:void(0);" onclick="openNav()">Shop</a></li>
           </ul>
         </div>
+
+
+          <div id="mySidenav" class="sidenav">
+            <img class = "image1" src="t-shirt.jpg">
+            <div class = "divtest">
+              <h1 class = "titletext"> Unisex T-shirt</h1>
+              <h4 class = "offeredbyTesla"</h4>
+              <h3 class = "discription"> <strong>Discription:<br><br><br></strong>The Tesla Corp jacket is fully customized <br>and uniquely styled. 94% polyester, 6% elastane, <br>this jacket has the front 'T' embroidered on left chest<br> and Tesla wordmark embroidered across the back. </h3><br>
+            </div>
+          <div>
+            <img class = "image1" src="girlsHoodie.jpg">
+            <div class = "divtest">
+              <h1 class = "titletext"> Unisex T-shirt</h1>
+              <h4 class = "offeredbyTesla"</h4>
+              <h3 class = "discription"> <strong>Discription:<br><br><br></strong>The Tesla Corp jacket is fully customized <br>and uniquely styled. 94% polyester, 6% elastane, <br>this jacket has the front 'T' embroidered on left chest<br> and Tesla wordmark embroidered across the back. </h3><br>
+            </div>
+          </div>
+          <div>
+            <div class = "divtest">
+              <h1 class = "titletext"> Unisex T-shirt</h1>
+              <h4 class = "offeredbyTesla"</h4>
+              <h3 class = "discription"> <strong>Discription:<br><br><br></strong>The Tesla Corp jacket is fully customized <br>and uniquely styled. 94% polyester, 6% elastane, <br>this jacket has the front 'T' embroidered on left chest<br> and Tesla wordmark embroidered across the back. </h3><br>
+            </div>
+            <img class = "image1" src="mens-hoodie.jpg">
+          </div>
+          
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        </div>
+        <span class = "shopbutton" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+
+        <script>
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "100%";
+
+        }
+
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+        }
+        </script>
         <script>
         var myIndex = 0;
         carousel();

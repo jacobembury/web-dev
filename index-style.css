@@ -21,21 +21,14 @@ ul {
     border-radius: 5%;
 }
 
+
+
 #wrapper{
     margin-left: auto;
     margin-right: auto;
     width:480px;
-
 }
 
-
-h1 {
-    font-family: Times;
-    text-align: center;
-    color: white;
-    padding-top: 10vh; 
-    font-size: 10vh;
-}
 
 li {
     float: left;
@@ -79,6 +72,91 @@ body{
     
 }
 
+
+
+.sidenav {
+    height: 100%;
+    width: 0%;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #F8F8F8;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    position: fixed;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #f1f1f1;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #818181;
+}
+
+.shopbutton{
+    position: fixed;
+}
+
+.sidenav .closebtn {
+    color: black;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+    position: absolute;
+}
+
+.titletext{
+    font-family: arial;
+    font-size: 50px;
+    margin = 0;
+    padding-top: 10vh;
+    padding-right: 17vw;
+}
+
+.discription{
+    font-family: arial;
+    font-size: 20px;
+    margin = 0;
+    padding-top: 0vh;
+    float: left;
+}
+
+
+.divtest{
+    float: right;
+
+}
+
+image1{
+    margin: 0;
+    padding-top: 0;
+}
+
+body{
+    background-image: url("download-1.jpg");
+    min-height: 100vh; 
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+    
+.mySlides {display:none;}
+
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
 
 
 /* my <divs> */
